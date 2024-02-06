@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "MakoIoT.Device.WebServer", "src\MakoIoT.Device.WebServer\MakoIoT.Device.WebServer.nfproj", "{D74C018B-BAEA-4A3D-8307-8A01708685EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F73619DE-1297-41DE-A69E-B3B439AB0B8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D74C018B-BAEA-4A3D-8307-8A01708685EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74C018B-BAEA-4A3D-8307-8A01708685EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74C018B-BAEA-4A3D-8307-8A01708685EA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D74C018B-BAEA-4A3D-8307-8A01708685EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74C018B-BAEA-4A3D-8307-8A01708685EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74C018B-BAEA-4A3D-8307-8A01708685EA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D74C018B-BAEA-4A3D-8307-8A01708685EA} = {F73619DE-1297-41DE-A69E-B3B439AB0B8E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6AE239D-1F6A-4A90-AD17-D42D71311C3C}
+	EndGlobalSection
+EndGlobal
