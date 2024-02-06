@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>MakoIoT.Device.Services.WiFi</id>
+    <id>MakoIoT.Device.WebServer</id>
     <version>$version$</version>
-    <title>MakoIoT.Device.Services.WiFi</title>
+    <title>MakoIoT.Device.WebServer</title>
     <authors>CSHARK</authors>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <license type="file">LICENSE.md</license>
@@ -11,29 +11,33 @@
     </releaseNotes>
     <readme>docs\README.md</readme>
     <developmentDependency>false</developmentDependency>
-    <projectUrl>https://github.com/CShark-Hub/Mako-IoT.Device.Services.WiFi</projectUrl>
-    <repository type="git" url="https://github.com/CShark-Hub/Mako-IoT.Device.Services.WiFi" />
+    <projectUrl>https://github.com/CShark-Hub/Mako-IoT.Device.WebServer</projectUrl>
+    <repository type="git" url="https://github.com/CShark-Hub/Mako-IoT.Device.WebServer" />
     <copyright>Copyright (c) CSHARK Sp. z o. o.</copyright>
-    <description>WiFi connectivity library for MAKO-IoT</description>
-    <tags>nanoFramework C# csharp netmf netnf mako-iot wifi network</tags>
+    <description>On-device web server base library for MAKO-IoT</description>
+    <tags>nanoFramework C# csharp netmf netnf mako-iot server web api rest</tags>
     <dependencies>
-      <dependency id="MakoIoT.Device.Services.Interface" version="1.0.45.4694" />
-      <dependency id="nanoFramework.CoreLibrary" version="1.15.5" />
-      <dependency id="nanoFramework.DependencyInjection" version="1.1.3" />
-      <dependency id="nanoFramework.Runtime.Events" version="1.11.15" />
-      <dependency id="nanoFramework.System.Collections" version="1.5.31" />
-      <dependency id="nanoFramework.System.Device.Wifi" version="1.5.71" />
-      <dependency id="nanoFramework.System.IO.Streams" version="1.1.52" />
-      <dependency id="nanoFramework.System.Net" version="1.10.64" />
-      <dependency id="nanoFramework.System.Text" version="1.2.54" />
-      <dependency id="nanoFramework.System.Threading" version="1.1.32" />
+	  <dependency id="MakoIoT.Device.Services.Interface" version="1.0.45.4694" />
+	  <dependency id="MakoIoT.Device.Services.Server" version="1.0.51.58665" />
+	  <dependency id="MakoIoT.Device.Utilities.String" version="1.0.33.52014" />
+	  <dependency id="nanoFramework.CoreLibrary" version="1.15.5" />
+	  <dependency id="nanoFramework.DependencyInjection" version="1.1.3" />
+	  <dependency id="nanoFramework.Runtime.Events" version="1.11.15" />
+	  <dependency id="nanoFramework.System.Collections" version="1.5.31" />
+	  <dependency id="nanoFramework.System.IO.FileSystem" version="1.1.32" />
+	  <dependency id="nanoFramework.System.IO.Streams" version="1.1.52" />
+	  <dependency id="nanoFramework.System.Net" version="1.10.72" />
+	  <dependency id="nanoFramework.System.Net.Http" version="1.5.125" />
+	  <dependency id="nanoFramework.System.Runtime" version="1.0.6" />
+	  <dependency id="nanoFramework.System.Text" version="1.2.54" />
+	  <dependency id="nanoFramework.System.Threading" version="1.1.32" />
     </dependencies>
   </metadata>
   <files>
-    <file src="src\MakoIoT.Device.Services.WiFi\bin\Release\MakoIoT.Device.Services.WiFi.dll" target="lib\MakoIoT.Device.Services.WiFi.dll" />
-    <file src="src\MakoIoT.Device.Services.WiFi\bin\Release\MakoIoT.Device.Services.WiFi.pdb" target="lib\MakoIoT.Device.Services.WiFi.pdb" />
-    <file src="src\MakoIoT.Device.Services.WiFi\bin\Release\MakoIoT.Device.Services.WiFi.pdbx" target="lib\MakoIoT.Device.Services.WiFi.pdbx" />
-    <file src="src\MakoIoT.Device.Services.WiFi\bin\Release\MakoIoT.Device.Services.WiFi.pe" target="lib\MakoIoT.Device.Services.WiFi.pe" />
+    <file src="src\MakoIoT.Device.WebServer\bin\Release\MakoIoT.Device.WebServer.dll" target="lib\MakoIoT.Device.WebServer.dll" />
+    <file src="src\MakoIoT.Device.WebServer\bin\Release\MakoIoT.Device.WebServer.pdb" target="lib\MakoIoT.Device.WebServer.pdb" />
+    <file src="src\MakoIoT.Device.WebServer\bin\Release\MakoIoT.Device.WebServer.pdbx" target="lib\MakoIoT.Device.WebServer.pdbx" />
+    <file src="src\MakoIoT.Device.WebServer\bin\Release\MakoIoT.Device.WebServer.pe" target="lib\MakoIoT.Device.WebServer.pe" />
     <file src="README.md" target="docs\" />
     <file src="LICENSE.md" target="" />
   </files>
