@@ -3,6 +3,7 @@ using System.Net;
 using System.Text;
 using System.Collections;
 using System;
+using MakoIoT.Device.Services.FileStorage;
 using MakoIoT.Device.Services.Interface;
 using MakoIoT.Device.WebServer.Extensions;
 using MakoIoT.Device.WebServer.Helpers;
@@ -47,7 +48,7 @@ namespace MakoIoT.Device.WebServer.Controllers
             response.StatusCode = (int)HttpStatusCode.OK;
             response.ContentLength64 = totalLength;
 
-            using var reader = new StreamReader(File.OpenRead(BaseFile));
+            using var reader = new MakoStreamReader(File.OpenRead(BaseFile));
             var writer = new StreamWriter(response.OutputStream);
 
             int transferredLength = 0;
@@ -74,7 +75,7 @@ namespace MakoIoT.Device.WebServer.Controllers
             HtmlParams = new Hashtable();
             _paramsInstances = new Hashtable();
 
-            using var reader = new StreamReader(File.OpenRead(BaseFile));
+            using var reader = new MakoStreamReader(File.OpenRead(BaseFile));
             string line = reader.ReadLine();
 
             while (line != null)
