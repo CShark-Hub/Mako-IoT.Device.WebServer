@@ -48,7 +48,7 @@ namespace MakoIoT.Device.WebServer.Controllers
             response.StatusCode = (int)HttpStatusCode.OK;
             response.ContentLength64 = totalLength;
 
-            using var reader = new MakoStreamReader(File.OpenRead(BaseFile));
+            using var reader = new StreamReader(new StaticLengthStream(File.OpenRead(BaseFile)));
             var writer = new StreamWriter(response.OutputStream);
 
             int transferredLength = 0;
@@ -75,7 +75,7 @@ namespace MakoIoT.Device.WebServer.Controllers
             HtmlParams = new Hashtable();
             _paramsInstances = new Hashtable();
 
-            using var reader = new MakoStreamReader(File.OpenRead(BaseFile));
+            using var reader = new StreamReader(new StaticLengthStream(File.OpenRead(BaseFile)));
             string line = reader.ReadLine();
 
             while (line != null)
