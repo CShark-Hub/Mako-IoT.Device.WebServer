@@ -47,7 +47,7 @@ namespace MakoIoT.Device.WebServer.Controllers
             RootPath = rootPath;
         }
 
-        protected void Render(HttpListenerResponse response, string file, string contentType = null)
+        protected virtual void Render(HttpListenerResponse response, string file, string contentType = null)
         {
             contentType ??= GetMimeType(file);
             if (File.Exists($"{RootPath}{file}.gz"))

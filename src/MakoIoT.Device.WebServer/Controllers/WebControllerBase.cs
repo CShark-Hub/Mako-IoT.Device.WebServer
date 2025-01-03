@@ -27,7 +27,7 @@ namespace MakoIoT.Device.WebServer.Controllers
             ParseParams();
         }
 
-        protected void Render(HttpListenerResponse response, bool copyFormToParams = false)
+        protected virtual void Render(HttpListenerResponse response, bool copyFormToParams = false)
         {
             if (copyFormToParams)
             {
@@ -132,7 +132,7 @@ namespace MakoIoT.Device.WebServer.Controllers
 
         }
 
-        protected void ParseForm(string contentType, long contentLength, Stream requestStream, FileUploadDelegate fileUploadDelegate = null)
+        protected virtual void ParseForm(string contentType, long contentLength, Stream requestStream, FileUploadDelegate fileUploadDelegate = null)
         {
             if (contentType == "application/x-www-form-urlencoded")
             {

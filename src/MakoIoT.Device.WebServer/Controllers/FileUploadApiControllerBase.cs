@@ -16,7 +16,7 @@ namespace MakoIoT.Device.WebServer.Controllers
             Logger = logger;
         }
 
-        protected void PostFile(WebServerEventArgs e, string filePath)
+        protected virtual void PostFile(WebServerEventArgs e, string filePath)
         {
             try
             {
