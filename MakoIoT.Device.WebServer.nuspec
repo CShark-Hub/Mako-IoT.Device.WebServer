@@ -19,7 +19,7 @@
     <dependencies>
       <dependency id="MakoIoT.Device.Services.FileStorage" version="1.1.11.41578" />
       <dependency id="MakoIoT.Device.Services.Interface" version="1.0.54.39044" />
-      <dependency id="MakoIoT.Device.Services.Server" version="1.0.86.39197" />
+      <dependency id="MakoIoT.Device.Services.Server" version="1.0.88.27496" />
       <dependency id="MakoIoT.Device.Utilities.String" version="1.0.42.9118" />
       <dependency id="nanoFramework.CoreLibrary" version="1.17.7" />
       <dependency id="nanoFramework.DependencyInjection" version="1.1.30" />
