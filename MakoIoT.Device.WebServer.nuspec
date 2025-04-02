@@ -18,20 +18,20 @@
     <tags>nanoFramework C# csharp netmf netnf mako-iot server web api rest</tags>
     <dependencies>
       <dependency id="MakoIoT.Device.Services.FileStorage" version="1.1.11.41578" />
-      <dependency id="MakoIoT.Device.Services.Interface" version="1.0.54.39044" />
+      <dependency id="MakoIoT.Device.Services.Interface" version="1.0.55.11594" />
       <dependency id="MakoIoT.Device.Services.Server" version="1.0.88.27496" />
-      <dependency id="MakoIoT.Device.Utilities.String" version="1.0.42.9118" />
-      <dependency id="nanoFramework.CoreLibrary" version="1.17.7" />
-      <dependency id="nanoFramework.DependencyInjection" version="1.1.30" />
-      <dependency id="nanoFramework.Runtime.Events" version="1.11.31" />
-      <dependency id="nanoFramework.System.Collections" version="1.5.63" />
-      <dependency id="nanoFramework.System.IO.FileSystem" version="1.1.83" />
-      <dependency id="nanoFramework.System.IO.Streams" version="1.1.91" />
-      <dependency id="nanoFramework.System.Net" version="1.11.37" />
-      <dependency id="nanoFramework.System.Net.Http" version="1.5.192" />
+      <dependency id="MakoIoT.Device.Utilities.String" version="1.0.43.34490" />
+      <dependency id="nanoFramework.CoreLibrary" version="1.17.11" />
+      <dependency id="nanoFramework.DependencyInjection" version="1.1.32" />
+      <dependency id="nanoFramework.Runtime.Events" version="1.11.32" />
+      <dependency id="nanoFramework.System.Collections" version="1.5.67" />
+      <dependency id="nanoFramework.System.IO.FileSystem" version="1.1.85" />
+      <dependency id="nanoFramework.System.IO.Streams" version="1.1.94" />
+      <dependency id="nanoFramework.System.Net" version="1.11.42" />
+      <dependency id="nanoFramework.System.Net.Http" version="1.5.193" />
       <dependency id="nanoFramework.System.Runtime" version="1.0.28" />
-      <dependency id="nanoFramework.System.Text" version="1.3.36" />
-      <dependency id="nanoFramework.System.Threading" version="1.1.50" />
+      <dependency id="nanoFramework.System.Text" version="1.3.42" />
+      <dependency id="nanoFramework.System.Threading" version="1.1.52" />
     </dependencies>
   </metadata>
   <files>
