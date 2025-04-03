@@ -18,13 +18,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MakoIoT.Device.Services.FileStorage, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\packages\MakoIoT.Device.Services.FileStorage.1.1.11.41578\lib\MakoIoT.Device.Services.FileStorage.dll</HintPath>
+      <HintPath>..\..\packages\MakoIoT.Device.Services.FileStorage.1.1.13.47059\lib\MakoIoT.Device.Services.FileStorage.dll</HintPath>
     </Reference>
     <Reference Include="MakoIoT.Device.Services.Interface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\..\packages\MakoIoT.Device.Services.Interface.1.0.55.11594\lib\MakoIoT.Device.Services.Interface.dll</HintPath>
     </Reference>
     <Reference Include="MakoIoT.Device.Services.Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\packages\MakoIoT.Device.Services.Server.1.0.88.27496\lib\MakoIoT.Device.Services.Server.dll</HintPath>
+      <HintPath>..\..\packages\MakoIoT.Device.Services.Server.1.0.89.37901\lib\MakoIoT.Device.Services.Server.dll</HintPath>
     </Reference>
     <Reference Include="MakoIoT.Device.Utilities.String, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\..\packages\MakoIoT.Device.Utilities.String.1.0.43.34490\lib\MakoIoT.Device.Utilities.String.dll</HintPath>
