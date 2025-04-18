@@ -17,9 +17,9 @@
     <description>On-device web server base library for MAKO-IoT</description>
     <tags>nanoFramework C# csharp netmf netnf mako-iot server web api rest</tags>
     <dependencies>
-      <dependency id="MakoIoT.Device.Services.FileStorage" version="1.1.13.47059" />
+      <dependency id="MakoIoT.Device.Services.FileStorage" version="1.1.14.28984" />
       <dependency id="MakoIoT.Device.Services.Interface" version="1.0.55.11594" />
-      <dependency id="MakoIoT.Device.Services.Server" version="1.0.89.37901" />
+      <dependency id="MakoIoT.Device.Services.Server" version="1.0.91.42086" />
       <dependency id="MakoIoT.Device.Utilities.String" version="1.0.43.34490" />
       <dependency id="nanoFramework.CoreLibrary" version="1.17.11" />
       <dependency id="nanoFramework.DependencyInjection" version="1.1.32" />
